@@ -1,0 +1,93 @@
+body {
+  background-color: #111;
+}
+
+.square {
+  background-color: #012169;
+  height: 400px;
+  width: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* angle one */
+.angle1 {
+  width: 900px;
+  background-color: #fff;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-13%, -50px) rotate(29deg);
+}
+
+.angle-red1 {
+  height: 30px;
+  width: 100%;
+  background-color: red;
+}
+
+/* angle2 */
+.angle2 {
+  width: 900px;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-13%, -50px) rotate(-29deg);
+}
+
+.angle-red2 {
+  height: 30px;
+  width: 100%;
+  background-color: red;
+}
+
+/* plus design */
+
+.plus-white1 {
+  width: 100px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 99999;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.plus-red1 {
+  width: 50px;
+  height: 100%;
+  background-color: red;
+  z-index: 99999;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.plus-white2 {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  z-index: 99999;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.plus-red2 {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  z-index: 99999;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
